@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="695.0" prefWidth="1300.0" style="-fx-background-color: #4d001a;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.REPORT1Controller">
+   <children>
+      <Label layoutX="588.0" layoutY="39.0" prefHeight="50.0" prefWidth="189.0" text="NOTIFICATION" textFill="#eeecec">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="618.0" layoutY="155.0" prefHeight="27.0" prefWidth="124.0" text="Birthday        :" textFill="WHITE" AnchorPane.leftAnchor="618.0" AnchorPane.rightAnchor="558.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="621.0" layoutY="227.0" prefHeight="27.0" prefWidth="102.0" text="Eligible List    :" textFill="WHITE" AnchorPane.leftAnchor="621.0" AnchorPane.rightAnchor="555.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="771.0" layoutY="147.0" mnemonicParsing="false" onAction="#birthday_report" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #4e6e76;" text="SEARCH" textFill="#f8f3f3" AnchorPane.leftAnchor="771.0" />
+      <Button layoutX="777.0" layoutY="219.0" mnemonicParsing="false" onAction="#enable_report" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #4e6e76;" text="SEARCH" textFill="#fcf7f7" AnchorPane.leftAnchor="771.0" />
+      <Button layoutX="1222.0" layoutY="27.0" mnemonicParsing="false" onAction="#backfromnotif" text="BACK" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="675.0" prefWidth="1300.0" style="-fx-background-color: #4d001a;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.HomeeController">
+   <children>
+      <Label layoutX="395.0" layoutY="613.0" prefHeight="54.0" prefWidth="572.0" text="\@DEVELOPED BY OSMAN GONI" textFill="#f2e6e6">
+         <font>
+            <Font name="Algerian" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="1220.0" layoutY="14.0" mnemonicParsing="false" onAction="#backfromhomee" text="BACK" />
+   </children>
+</AnchorPane>

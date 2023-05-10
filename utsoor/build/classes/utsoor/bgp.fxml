@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="675.0" prefWidth="1300.0" style="-fx-background-color: #4d001a;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.T1Controller">
+   <children>
+      <Label layoutX="493.0" layoutY="50.0" prefHeight="35.0" prefWidth="375.0" text="BLOOD GROUPING PROGRAMME" textAlignment="JUSTIFY" textFill="#fcf1f1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="124.0" prefHeight="27.0" prefWidth="71.0" text="BGP No :" textFill="#fcf1f1" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="1066.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="188.0" text="Date      :" textFill="WHITE" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="1066.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="244.0" text="Name   :" textFill="WHITE" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="1066.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="187.0" prefHeight="27.0" prefWidth="159.0" text="Place                     :" textFill="WHITE" AnchorPane.leftAnchor="659.0" AnchorPane.rightAnchor="482.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bgpno" layoutX="254.0" layoutY="124.0" prefHeight="25.0" prefWidth="265.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="788.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="date" layoutX="254.0" layoutY="188.0" prefHeight="25.0" prefWidth="258.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="788.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="name" layoutX="254.0" layoutY="244.0" prefHeight="25.0" prefWidth="258.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="788.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="place" layoutX="826.0" layoutY="188.0" prefHeight="25.0" prefWidth="226.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Label layoutX="659.0" layoutY="124.0" prefHeight="27.0" prefWidth="159.0" text="ID                           :" textFill="WHITE" AnchorPane.leftAnchor="659.0" AnchorPane.rightAnchor="482.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="651.0" layoutY="248.0" prefHeight="27.0" prefWidth="106.0" text="Phone No              :" textFill="WHITE" AnchorPane.leftAnchor="659.0" AnchorPane.rightAnchor="482.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="313.0" text="Age       :" textFill="WHITE" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="1066.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="312.0" prefHeight="27.0" prefWidth="141.0" text="Weight                   :" textFill="WHITE" AnchorPane.leftAnchor="659.0" AnchorPane.rightAnchor="482.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="370.0" prefHeight="27.0" prefWidth="149.0" text="Blood Group          :" textFill="WHITE" AnchorPane.leftAnchor="659.0" AnchorPane.rightAnchor="482.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bgpid" layoutX="826.0" layoutY="124.0" prefHeight="25.0" prefWidth="226.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="phone" layoutX="826.0" layoutY="249.0" prefHeight="25.0" prefWidth="226.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="age" layoutX="254.0" layoutY="313.0" prefHeight="25.0" prefWidth="258.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="788.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="weight" layoutX="826.0" layoutY="313.0" prefHeight="25.0" prefWidth="226.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="bgroup" layoutX="826.0" layoutY="371.0" prefHeight="25.0" prefWidth="226.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button layoutX="868.0" layoutY="493.0" mnemonicParsing="false" onAction="#bgp_save" prefHeight="47.0" prefWidth="170.0" text="SAVE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="1225.0" layoutY="25.0" mnemonicParsing="false" onAction="#backfrombgp" text="BACK" />
+   </children>
+</AnchorPane>

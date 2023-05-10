@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.FXMLDocumentController">
+   <children>
+      <MenuBar prefHeight="39.0" prefWidth="826.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="HOME">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#getNewFlie" text="File" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="INPUT">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#getupdate2" text="Update" />
+              <MenuItem mnemonicParsing="false" onAction="#getnewapplication" text="New Application" />
+                  <MenuItem mnemonicParsing="false" onAction="#getbgp2" text="Blood Grooping Program" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="NOTIFICATION">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#getreport2" text="Types of Notification" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="EMAIL">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#getsms2" text="Types of Email" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="SEARCH">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#getsearch2" text="All Types of Search" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="CERTIFICATE">
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#table_new" text="Types of Certificate" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="CONTACT US">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#calling_website" text="Website" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="675.0" fitWidth="1300.0" layoutX="-2.0" layoutY="38.0" pickOnBounds="true">
+         <image>
+            <Image url="@ddd.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

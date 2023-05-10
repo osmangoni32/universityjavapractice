@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="675.0" prefWidth="1300.0" style="-fx-background-color: #4D001A;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.CertificateController">
+   <children>
+      <Button layoutX="84.0" layoutY="510.0" mnemonicParsing="false" onAction="#print_certificate" prefHeight="25.0" prefWidth="106.0" text="PRINT" />
+      <Label fx:id="jss" layoutX="400.0" layoutY="502.0" prefHeight="42.0" prefWidth="203.0" />
+      <TextField fx:id="blood" layoutX="200.0" layoutY="510.0" prefHeight="25.0" prefWidth="128.0" promptText="number of donation" />
+      <Button layoutX="84.0" layoutY="547.0" mnemonicParsing="false" onAction="#singleprint" prefHeight="25.0" prefWidth="106.0" text="SINGLE PRINT" />
+      <TextField fx:id="singleprintid" layoutX="200.0" layoutY="547.0" prefHeight="25.0" prefWidth="128.0" promptText="Single print id no" />
+      <AnchorPane fx:id="certificatepane" layoutX="-33.0" layoutY="-10.0" prefHeight="516.0" prefWidth="688.0" styleClass="root">
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@style.css" />
+         </stylesheets>
+         <children>
+            <Label fx:id="uhh" layoutX="247.0" layoutY="227.0" prefHeight="54.0" prefWidth="181.0">
+               <font>
+                  <Font name="Edwardian Script ITC" size="45.0" />
+               </font></Label>
+            <Label fx:id="blood_time" layoutX="168.0" layoutY="282.0" prefHeight="35.0" prefWidth="23.0">
+               <font>
+                  <Font name="Algerian" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="date" layoutX="159.0" layoutY="380.0" prefHeight="17.0" prefWidth="77.0">
+               <font>
+                  <Font name="Dotum" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1224.0" layoutY="24.0" mnemonicParsing="false" onAction="#backfromcertificate" text="BACK" />
+   </children>
+</AnchorPane>
